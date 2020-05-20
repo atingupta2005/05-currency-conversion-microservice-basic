@@ -21,7 +21,7 @@ metadata:
         app: currency-conversion
     spec:
       containers:
-      - image: atingupta2005/currency-conversion:0.0.2-RELEASE #CHANGE
+      - image: atingupta2005/currency-conversion:latest
         imagePullPolicy: IfNotPresent
         name: currency-conversion
         env:
