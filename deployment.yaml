@@ -38,7 +38,7 @@ metadata:
   labels: #PODS
     app: currency-conversion
   name: currency-conversion
-  spec:
+spec:
   ports:
   - # nodePort: 30701 #CHANGE
     port: 8100 #CHANGE
