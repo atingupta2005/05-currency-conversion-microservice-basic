@@ -4,7 +4,7 @@ metadata:
   labels:
     app: currency-conversion
   name: currency-conversion
-  spec:
+spec:
   replicas: 2 #CHANGE
   minReadySeconds: 45
   selector:
